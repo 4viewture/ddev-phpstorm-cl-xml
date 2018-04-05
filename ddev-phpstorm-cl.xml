@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.4.xsd" name="DDev" invoke="ddev" alias="ddev" enabled="true" version="2">
+    <command>
+        <name>help</name>
+        <params>commandidentifier[=null]</params>
+        <help><![CDATA[<h2>help</h2>
+            <p>Usage:<br>
+            help <commandidentifier>
+            </p>
+            <p>Displays help for flow or about a given command identifier</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>auth-pantheon</name>
+        <help><![CDATA[
+            <h2>auth-pantheon</h2>
+            <p>Provide a machine token for the global pantheon auth.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>config</name>
+        <help><![CDATA[
+            <h2>config</h2>
+            <p>Create or modify a ddev project configuration in the current directory</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>describe</name>
+        <help><![CDATA[
+            <h2>describe</h2>
+            <p>Get a detailed description of a running ddev project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>exec</name>
+        <help><![CDATA[
+            <h2>exec</h2>
+            <p>Execute a shell command in the container for a service. Uses the web service by default.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>help</name>
+        <help><![CDATA[
+            <h2>help</h2>
+            <p>Help about any command</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>hostname</name>
+        <help><![CDATA[
+            <h2>hostname</h2>
+            <p>Manage your hostfile entries.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>import-db</name>
+        <help><![CDATA[
+            <h2>import-db</h2>
+            <p>Import the database of an existing project to the dev environment.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>import-files</name>
+        <help><![CDATA[
+            <h2>import-files</h2>
+            <p>Import the uploaded files directory of an existing project to the default public upload directory of your project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>list</name>
+        <help><![CDATA[
+            <h2>list</h2>
+            <p>List projects</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>logs</name>
+        <help><![CDATA[
+            <h2>logs</h2>
+            <p>Get the logs from your running services</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>pull</name>
+        <help><![CDATA[
+            <h2>pull</h2>
+            <p>Import files and database using a configured provider plugin.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>remove</name>
+        <help><![CDATA[
+            <h2>remove</h2>
+            <p>Remove the development environment for a project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>restart</name>
+        <help><![CDATA[
+            <h2>restart</h2>
+            <p>Restart the development environment for a project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>sequelpro</name>
+        <help><![CDATA[
+            <h2>sequelpro</h2>
+            <p>Connect sequelpro to a project database</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>ssh</name>
+        <help><![CDATA[
+            <h2>ssh</h2>
+            <p>Starts a shell session in the container for a service. Uses web service by default.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>start</name>
+        <help><![CDATA[
+            <h2>start</h2>
+            <p>Start a ddev project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>stop</name>
+        <help><![CDATA[
+            <h2>stop</h2>
+            <p>Stop the development environment for a project.</p>
+        ]]></help>
+    </command>
+    <command>
+        <name>version</name>
+        <help><![CDATA[
+            <h2>version</h2>
+            <p>print ddev version and component versions</p>
+        ]]></help>
+    </command>
+    <help><![CDATA[
+        <p>Usage:<br>
+        flow <command identifier>
+        </p>
+        <p>
+        See "flow help" for a list of all available commands.
+        </p>
+    ]]></help>
+</framework>
+

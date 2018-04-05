@@ -7,7 +7,8 @@ This plugins provides auto completition for `ddev` in phpstorm.
 0. Open PhpStorm, install DDev
 1. Navigate to Settings | Command Line Tool Support and add custom configuration
 2. Add the Framework Name (e.g. "DDev"), the Tool path (e.g. "ddev") and the Alias (e.g. "ddev")
-3. Import the XML configuration file available here: https://github.com/4viewture/ddev-phpstorm-cl-xml/ddev-phpstorm-cl-xml
+3. Import the XML configuration file available here: https://github.com/4viewture/ddev-phpstorm-cl-xml/ddev-phpstorm-cl.xml by copying in the Custom_ddev.xml provided by phpstorm.
+4. you may need to adjust the schema version in the xml intro.
 
 ### How to use it
 
